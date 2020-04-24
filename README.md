@@ -1,1 +1,3 @@
-# personal space 
+Personal space.
+
+I have all my learnings and notes in this repository.

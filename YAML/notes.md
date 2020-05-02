@@ -98,7 +98,15 @@ hobbies: [sleeping, being lazy]
 
 ### Tags
 
-Tags provide us with three functions: The ability to assign a universal resource indicator, the ability to assign local tags to that indicator, and the ability to change how the YAML parser reads certain scalars when processing the YAML itself. We first take a look at how to assign a URI using the %TAG header, then we assign some local tags with !, before finally learning how to use the !! indicator to change the data type of a scalar.
+Tags provide us with three functions: 
+- to assign a universal resource indicator, 
+%TAG ! prefix
+- the ability to assign local tags to that indicator, 
+!TAG
+- and the ability define datatype explicitly & change how the YAML parser reads certain scalars when processing the YAML itself. 
+Example:
+age: !!string 34
+
 Default data types:
 * seq - Sequence
 * map - Map
@@ -113,6 +121,10 @@ Default data types:
 ### Anchors
 
 Anchors allow us to reuse data across a YAML file. Have a list or scalar that needs to be referenced again and again? With an anchor, we can use the & prefix to assign some data a name, then use the * with that name to call it repeatedly throughout the file, making updating large files a quick and easy process.
+
+Example:
+name: &name satish
+id: *name
 
 
 Lab - https://kodekloud.com/courses/json-path-quiz/lectures/11339234

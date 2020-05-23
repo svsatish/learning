@@ -1,0 +1,93 @@
+Groovy - https://groovy-lang.org/
+
+1. What is Groovy?
+- Groovy is an Object oriented programming language.
+
+- It can be used as both as a programming language and a scripting language
+https://www.programmingeeks.com/scripting-vs-programming-languages/
+-- Scripting language is not compiled. It is interpreted whereas programming
+language is compiled.
+-- An interpreted language is one where the instructions are not directly
+executed by the target machine, but instead read and executed by some other program
+-- A compiled language is one where the program, once compiled, is expressed
+in the instructions of the target machine.
+
+- Groovy is Domain Specific language (DSL). Specific to Java Platform.
+- It accompanies Java but do not replace it. It is a superset of Java.
+
+2. Why Groovy?
+- Simplicity. It reduces the 'boilerplate code'.
+https://dev.to/jcoelho/10-reasons-to-use-groovy-in-2019-431f
+
+3. When is Groovy used?
+Groovy can be used anywhere you can use Java or any other JVM language
+
+4. Where?
+- Gradle - build automation tool
+https://github.concur.com/PublicSectorAutomation/ServiceReadiness/blob/master/build.gradle
+- Jenkins - Pipeline as code/ workflow scripts
+https://github.concur.com/QP/workflows
+https://github.concur.com/PublicSectorAutomation/ServiceReadiness/blob/master/SingleTestExecutor.groovy
+
+5. How?
+Pre-requisite - Java jdk installed in your machine
+Install groovy in your machine - via sdkman
+
+Tools:
+- groovysh - a shell to execute groovy commands and get live results
+- groovyc - compiles groovy files to a class file which can be executed by groovy.
+It converts source code to java byte code.
+- groovyconsole - to evaluate groovy scripts
+- IntelliJ - create Grrovy project > import groovy jar > can create class & scripts
+
+Groovy Basics:
+
+Structure:
+
+1. package - pack(group) of related classes and interfaces
+
+2. imports - use to import packages that you want to use in java source file.
+Groovy imports the most used packages by default. So no need to import them explicitly.
+In case to import, import using fully qualified name or by *
+
+3. keywords - predefined/reserved words
+
+4. comments - single line, multi line, groovy doc, shebang
+#!/usr/bin/env groovy
+
+5. assertions - assert statement. Used to evaluate expressions.
+While executing assertion, it is believed to be true. If it fails, JVM throws an error named AssertionError.
+
+6. classes - by default all classes and methods are public in groovy.
+No need of semicolon for statement end.
+In groovy class file, file name and class name are same
+In groovy script file, class name cannot be same as file name
+
+7. numbers - primitive types are autoboxed to wrapper equivalents in groovy.
+So, we can invoke methods on them whereas in Java you cannot.
+
+8. Control structures/statements
+if
+if-else
+while
+for in
+switch
+closure
+
+9. AST transformations
+AST means Abstract Syntax Tree, which is basically an abstract representation of code / any
+syntactic structure. A transformation is an action modifying this tree (i.e. transforming
+the existing AST to a new AST).
+
+10. Grapes - dependency management. @grab
+
+Data types:
+
+*Java is Static typed language meaning data type should be declared before use.
+Groovy us Dynamic typed language meaning we do not need to declare.
+
+*Java has 8 primitive + 8 equivalent wrapper classes + String data type = 17
+Groovy has no primitives. wrapper classes + String only.
+
+*Java is not pure OOP because of primitives.
+Groovy is pure OOP because everything is a object.

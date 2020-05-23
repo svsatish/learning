@@ -1,0 +1,10 @@
+AZ-900T01 - Microsoft Azure Fundamentals
+
+Modules:
+1. Cloud concepts
+2. Core Azure services
+3. Security
+4. Pricing and Support
+-----------------------------------------
+
+https://docs.microsoft.com/en-us/learn/certifications/exams/az-900

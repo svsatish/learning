@@ -1,0 +1,105 @@
+My name is Satish Saripella
+I work for SAP Concur
+I am a Site reliability engineer on Chaos Engineering team.
+I have beginner level experience and hope to gain some knowledge from this
+training and give certification.
+-----------------------------------------
+4 modules:
+1. Cloud concepts/Understanding AWS cloud - 25%
+2. Security and compliance - 25%
+3. Technology/AWS service - 33%
+4. Billing & Pricing/Pricing, TCO and cost optimization - 16%
+-----------------------------------------
+Exam: 90 min; US 100; 65 questions; min score 700/1000; immediate result
+-----------------------------------------
+Knowledge Check - 7 questions - answered most
+-----------------------------------------
+What is Cloud computing - on-demand delivery of IT resources via internet with
+pay-as-you-go pricing.
+- Benefits. Why customers are moving to cloud ?
+- Self-managed(DB on EC2) and Fully-managed service(DB on RDS)
+-----------------------------------------
+Why AWS?
+-----------------------------------------
+Global Infrastructure:
+DC- 50-80k servers in each data center - best ROI
+collection of DC's - AZ - interconnected thru private n/w
+collection of AZ's - Region
+CloudFront - CDN - uses Edge locations(point of presence) to cache content
+------------------------------------------
+Shared responsibility model
+customer is responsible for Security "in" Cloud
+AWS is responsible for Security "of" Cloud
+
+- AWS trusted advisor -
+- AWS organizations - policy based management for multiple AWS accounts;
+auto user creation, consolidated Billing
+- Inspector - Vulnerability assessment; agent installed on EC2 for assessment
+- Shield - DDoS; Standard & Advanced version (24x7 support from Amazon, cost protection)
+- AWS artifacts - on-demand access to compliance report
+---------------------------------------------
+Services:
+
+Tools for migration:
+Server - VM import/export; SMS(Server migration service); AMI; Cloudendure
+DB - DMS
+Snowball - robust hardware - data offline transfer, 50/80/100TB
+Snowball edge - can run compute too
+
+Compute services:
+EC2 - VM's running on AWS hypervisor (AWS Nitro system)
+AMI/golden image - image of server/ pre-configured image
+Instance types: On-demand; Reserved; RI; Spot; Dedicated; Dedicated host
+Auto scaling
+Pricing
+ECS
+Lambda
+
+Storage services:
+File - EFS/NFS; FSx/SMB
+Block - EBS; EC2instance store
+Object - S3; S3 Glacier
+Data transfer - Direct connect; Snowball; S3 transfer acceleration; Storage
+gateway; Kinesis firehouse, ISV connectors
+
+Network services:
+VPC - Multi-account strategy is preferred instead of multi-vpc in one AWS account
+Security groups: EC2 - Virtual firewalls(stateful) - checks one way and remembers state
+NACL: subnets - stateless - checks both ways
+ELB - distributes traffic; Application, Network & Classic load balancers
+CloudFront - CDN - caching content
+Route 53 - DNS service - 100% SLA
+API Gateway - create, publish, maintain
+Transit gateway - connect b/n VPC's and on-premises too
+
+Database services:
+RDS - fully managed (mysql; oracle; sql server); performance by read-replicas,
+multi AZ capability
+Aurora - RDS too; mysql & PostgreSQL compatibility, auto backup
+Dynamo DB - NoSQL
+Redshift - Data Warehousing
+Amazon ElastiCache - in-memory db supports Redis and memcache
+
+Security:
+Layered security approach
+IAM users, groups, policies, roles - can be assumed(granting access to access other services)
+AWS Directory service - AD connector - connects on-prem AD to AWS cloud
+KMS - data encryption; managed service; integrates with cloud trial and many
+Cloud HSM - H/w security module - self managed
+Web Application firewall (WAF) - protects web app
+AWS Shield - DDoS; Standard and advanced
+GuardDuty - Intelligent threat detection
+Macie - Identify PII
+
+Management:
+CloudWatch - monitor resources; create alarms
+CloudTrail - logging/auditing of aws account activity
+CloudFormation - Infrastructure as code
+AWS config - tracking inventory and config
+Elastic beanstalk - deploy an manage apps
+-----------------------------------------------------------------
+TCO and Cost Optimization:
+
+TCO Calculator - when you want to move to aws
+Cost explorer - analyze the bills based on usage and tags
+Simply monthly calculator - estimate your bills

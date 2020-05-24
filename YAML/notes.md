@@ -9,9 +9,9 @@
 
 ## 2. When is this used ?
 
-YAML is a powerful language that can be used for 
-- configuration files, 
-- messages between applications, and 
+YAML is a powerful language that can be used for
+- configuration files,
+- messages between applications, and
 - saving application state.
 
 
@@ -91,19 +91,19 @@ hobbies: [sleeping, being lazy]
 
 ### Structures
 
-- Directive/Document 
+- Directive/Document
 - a single yaml file can have multiple directives
 - directives start with - - -
 - end with …
 
 ### Tags
 
-Tags provide us with three functions: 
-- to assign a universal resource indicator, 
+Tags provide us with three functions:
+- to assign a universal resource indicator,
 %TAG ! prefix
-- the ability to assign local tags to that indicator, 
+- the ability to assign local tags to that indicator,
 !TAG
-- and the ability define datatype explicitly & change how the YAML parser reads certain scalars when processing the YAML itself. 
+- and the ability define datatype explicitly & change how the YAML parser reads certain scalars when processing the YAML itself.
 Example:
 age: !!string 34
 
@@ -129,3 +129,4 @@ id: *name
 
 Lab - https://kodekloud.com/courses/json-path-quiz/lectures/11339234
 yaml validator - http://www.yamllint.com/
+Excercises - https://github.com/mmumshad/ansible-training-answer-keys/tree/master/Section_1_YAML

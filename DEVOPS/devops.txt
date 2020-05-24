@@ -1,0 +1,55 @@
+Devops course from Kodecloud - Mumshad
+
+Setup lab environment
+1. In your local, using virtual box -> osboxs -> make sure to have
+bridged network
+2. setup in cloud using a CSP like AWS
+----------------------------------------------------------------
+Pre-requisites:
+
+1. Source code managements -> git/github
+
+2. CI/CD
+code+build+test --> CI (docker)
+CI+release      --> C delivery (docker registry)
+CD+deploy       --> C deployment (kubernetes)
+
+3. YAML - data serialization language
+Dictionaries - unordered
+List - ordered
+----------------------------------------------------------------
+IT Automation tools:
+
+There are automation different tools. Depending on your Org needs, you need to
+select a tool accordingly.
+
+- Chef - pull based, master can be only linux, agents can by any
+- Ansible - push based, playbooks in yaml , atom IDE has packages
+- Puppet - pull based, master-agent
+
+Programming patterns - Imperative Vs Declarative ways for writing scripts
+Push Vs Pull ways (Chef serving Vs Buffet)
+2 most important properties/characteristics - Idempotency Vs Convergence
+
+Idempotency - Multiple requests will yield the same result as single request
+Convergence- Will not make unnecessary operations by checking the state
+End result is the same for both.
+----------------------------------------------------------------
+Docker:
+- Containarize application > ship > run
+- Run each service with its dependencies in separate containers
+- Containers - Isolated env just like VM's except they all share same OS kernel
+----------------------------------------------------------------
+Kubernetes:
+Kubernetes is an open-source container-orchestration system for automating
+application deployment, scaling, and management
+----------------------------------------------------------------
+Openshift:
+Redhats open source container application platform for developing and
+managing enterprise grade applications of various cloud models.
+- It leverages both docker and kubernetes
+----------------------------------------------------------------
+Resources:
+YAML exercise - https://github.com/mmumshad/ansible-training-answer-keys/tree/master/Section_1_YAML
+Docker labs - https://kodekloud.com/courses/docker-for-the-absolute-beginner-hands-on/lectures/5191964
+Kubernestes - https://kodekloud.com/courses/316262/lectures/5995932

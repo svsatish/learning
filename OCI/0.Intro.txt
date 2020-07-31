@@ -1,0 +1,9 @@
+Exam name: Oracle Cloud infrastructure Foundations
+
+Exam code: 1Z0-1085-20
+
+exam questions: 60
+
+passing score: 68%
+
+time: 85 minutes

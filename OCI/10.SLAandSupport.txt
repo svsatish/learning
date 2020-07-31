@@ -1,1 +1,25 @@
 SLA:
+
+for Availability, performance, management
+
+Control plane - administration of resources
+Data plane - usage of resources
+
+--------------------------------------------
+
+Support:
+
+Open status page of all services across regions
+
+- Free support for paid members.
+- Limited support for free credit members
+- resolve technical issues
+- reset, unlock, change admin for tenancy account
+- increase service limits
+
+--------------------------------------------
+
+What you need:
+CSI - customer support identifier
+Tenancy OCID
+Resource OCID

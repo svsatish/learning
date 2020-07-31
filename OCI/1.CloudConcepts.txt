@@ -1,0 +1,44 @@
+Cloud: On-demand delivery of IT services over an internet
+
+-------------------------------------------------------
+
+Service Models:
+
+1. IAAS
+2. PAAS
+3. SAAS
+
+-------------------------------------------------------
+
+Main features of Cloud/ Cloud terminology:
+
+1. High availability
+- full-time availability
+- has redundant hardware and software
+- avoid single point of failure
+
+2. Disaster recovery
+- policies, tools, procedures to enable recovery of services
+- key metrics:
+-- RTO - recovery time objective - downtime you can tolerate
+-- RPO - recovery point objective - time of transactions lost
+
+3. Fault tolerance
+- ensure minimal downtime of services provided
+
+4. Scalability
+- Horizontal scaling - scaling out; scaling in
+- vertical scaling - scaling up; down
+
+5. Elasticity
+- ability to quickly increase and decrease resources
+
+-------------------------------------------------------
+
+Cloud economics:
+
+CAPEx vs OPEx:
+Capital expenditure - costs towards fixed assets like data center, office building etc
+Operational expenditure - costs towards operations like power, internet etc
+
+Cloud lets you trade CAPEx for OPEx

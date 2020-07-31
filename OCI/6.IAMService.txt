@@ -1,0 +1,29 @@
+IAM (Identity and Access management)
+- Identity - who
+
+Identity is of 2 types:
+1. IAM users - Users > Groups > Policiy > permissions
+2. Instance principals - instance/apps to access other OCI services
+
+- Compartments - policy is attached to the compartment for Access
+
+--------------------------------------------------------
+
+Authentication: Who is he? Is he really who he says he?
+OCI provides 3 ways of Authentication
+1. username/password
+2. API signing keys
+3. Auth tokens
+
+--------------------------------------------------------
+
+Authorization: What actions is he suppose to do?
+Security of least privilege - Deny everything by default
+
+--------------------------------------------------------
+
+Policy can be attached to a compartment or tenancy/account.
+
+Policy syntax:
+Allow subject to action; resource-type in location where condition
+- action - inspect; read; use; manage

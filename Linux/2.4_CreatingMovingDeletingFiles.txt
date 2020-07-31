@@ -1,0 +1,24 @@
+Creating, moving and deleting files and directories:
+
+mkdir <name>
+cp -r <name> <name1>
+mv </../name> </../../../name>
+rm -r <name>; rm
+
+make file - touch <fileName>
+-------------------------------------------------------------------
+Case sensitivity:
+
+Linux is case sensitive.
+-------------------------------------------------------------------
+Globbing:
+
+Partial matching to work with files and directories
+
+? - any single char
+* - any 0 or more no. of char
+[] - match no. of char in a range
+^ - match starting char
+$ - ending char
+{} - more than one pattern
+| - more than one condition

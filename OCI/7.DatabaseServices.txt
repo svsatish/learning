@@ -1,0 +1,36 @@
+Database options:
+
+I. Managed DB Systems
+1. VM database system - fast provisioning
+2. Bare Metal database system - high performance
+3. RAC - high availability
+4. Exadata database system - managed exadata infrastructure
+
+II. Autonomous DB Systems
+1. Autonomous shared
+2. Autonomous dedicated
+
+self-driving; self-secured; self-repairing
+
+-----------------------------------------------
+
+DB Systems Backup/restore:
+1. manual
+2. automatic
+
+-----------------------------------------------
+
+DB Systems DR:
+- Data guard - service which replicates db's for fault tolerant and HA
+- Active Data guard
+
+2 modes:
+Switchover - planned migration; no data loss
+Failover - unplanned migration; minimal data loss
+
+-----------------------------------------------
+
+Autonomous DB systems - Fully managed by Oracle
+Supports
+ATP _ Autonomous Transaction processing
+ADW - Autonomous Data Warehouse

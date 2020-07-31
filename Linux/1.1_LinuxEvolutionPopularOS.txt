@@ -1,0 +1,47 @@
+1.1 Linux evolution and popular operating systems
+
+Linux Distributions - collections of components that forms a system
+4 main components:
+Kernel - which connects the app layer to hardware
+GNU Core Utils - file, shell, text manipulation utils of OS
+X Server - display server for X windows systems
+GUI/ Desktop env - Gnome, KDE, Unity etc
+
+lsb_release -a  	> distribution version
+uname -r 			    > kernel version
+ls  --version 		> GNU coreutils version
+sudo X -version	  > X Server version
+
+-------------------------------------------------------------------
+
+Embedded system - combination of h/w and s/w for a purpose
+Example - Android, RasberryPi, Smart TV, Routers etc
+
+------------------------------------------------------------------
+
+Linux in the cloud -
+Cloud: Software and services that run and available on internet Or
+Collection of data centers providing compute, application and storage services
+over internet
+
+Example - AWS
+Region > Availability zone (data centers)…… > Subnets (local n/w)….
+
+-----------------------------------------------------------------
+
+First lab - connect to remote server
+
+ssh user@ipAddress
+
+    1  sudo -i
+    2  whoami
+    3  ls
+    4  pwd
+    5  last
+    6  uptime
+    7  clear
+    8  man whoami
+    9  man ls
+   10  history
+
+-------------------------------------------------------------------------------

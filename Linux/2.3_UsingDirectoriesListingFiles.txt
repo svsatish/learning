@@ -1,0 +1,39 @@
+FSH - File system hierarchy
+/     - root directory
+/bin  - user binaries
+/boot - static boot files
+/dev  - device files
+/etc  - configuration files
+/home - home directories
+/lib  - shared libraries
+/mnt  - temporary mount points
+/opt  - optional packages
+/proc - kernel and process files
+/root - root user home directory
+/run  - application state files
+/sbin - system administration binaries
+/srv  - service data
+/temp - temporary files
+/usr  - user binaries
+/var  - variable data files
+------------------------------------------------------------------------
+Moving around:
+cd path
+cd ..
+cd ../..
+------------------------------------------------------------------------
+Hidden files and directories:
+mkdir .subdir
+mkdir .file.txt
+ls -a > will show all hidden files
+------------------------------------------------------------------------
+Home Directory:
+default directory when user log-in's
+env - will show all environment variables
+cd $Home
+cd ~
+cd
+------------------------------------------------------------------------
+Absolute and relative path:
+Absolute - full path - works from anywhere - starts with /
+relative - short path - shud be in working directory

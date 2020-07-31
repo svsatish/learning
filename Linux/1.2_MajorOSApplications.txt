@@ -1,0 +1,40 @@
+1.2  Major Open source applications
+
+
+Open source desktop applications - openoffice, libreoffice, GIMP, firefox, thunderbird mail client etc
+
+Open source server applications - Apache, Nginix, MySQL, MariaDB, Samba, NFS, OwnCloud, NextCloud etc
+
+Open source development languages - shell, C, java, perl, php, python etc
+
+
+
+Package management tools and repositories:
+
+package - collection of files used to install something
+
+dpkg - .dpkg - debian package (for debian based linux distros)
+	> apt-get - advanced package tool for debian based systems which manages all .dpkg installations on system & handles dependencies automatically
+
+rpm - .rpm - redhat package management
+	> yum (yellowdog updater modifier) manages all rpm installations on system
+
+DNF - forked from yum - for fedora
+
+——————————————
+
+Lab 1 - install rpm package
+
+sudo rpm -i htop****  — i is to install
+
+sudo rpm -e htop — e is to remove
+
+——————————————
+
+Lab 2 - install dpkg package
+
+sudo dpkg -i htop**
+
+sudo dpkg - - remove htop
+
+——————————————

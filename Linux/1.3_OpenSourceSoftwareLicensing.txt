@@ -1,0 +1,26 @@
+1.3 Open source Software and Licensing
+
+Open source philosophy - freedom to copy, modify and distribute software
+Permissive - some restrictions on license
+Copyleft - more restrictions - must use same license
+
+—————————
+
+Open source licensing models
+
+Public Domain > CCO 1.0 (Creative commons 1.0 Universal public domain dedication)
+Permissive > BSD
+Copyleft > GPL (GNU general public license)
+
+————————————————
+
+Governing bodies:
+
+Free software foundation (FSF)
+
+Open source Initiative (OSI)
+
+FOSS vs FLOSS
+
+Free Open source software vs Free/Libre/open source source software
+price vs freedom

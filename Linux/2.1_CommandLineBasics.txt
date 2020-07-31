@@ -1,0 +1,83 @@
+2.1 Command line basics
+
+Basic shell - shell is software which uses CLI to write and execute
+
+CLI > bash is interpreter - Keyboard > STDIN > Processor > STDOUT/STDERR > Display
+
+Command line syntax -
+
+[user@Ip]$ - unprivileged /standard user
+# - root user
+
+ls > list directory
+ls -a > list all including hidden
+ls - - all > list all
+ls -l > long listing
+ls -s > size
+ls -h > human readable
+ls -alsh
+man ls > documentation
+ll > ls -alh > many distributions accepts ll which is short and an alias
+
+——————————————
+
+Variables -
+
+using values to store a reference
+
+Declaration & Assignment > var1=“This is a variable”
+Variables are referenced by $ symbol > $var1
+echo $var1 > This is a variable
+
+Default variables in BASH
+
+$HOME
+$PATH
+$PS1 > [\u\h \w ]\$ > [satishs@host ~]$ > Command prompt string
+
+——————————————
+
+Quoting - Disable special treatment & Preserve quoting i.e, input that contain
+spaces Or special chr
+
+escape character > \ - preserves the literal value of next character
+single quote > ‘’ - preserves the literal value of every character contained in single quotes
+double quote > “ “ - preserves most except $ , ‘ , \
+
+———————————————
+
+Lab 1:
+
+pwd > current working directory
+cd ~ > root directory
+w > who logged in now
+last > history of login
+
+Dump login history in a file -
+w > log.txt
+last >> log.txt
+cat log.txt
+
+————————————————
+
+Lab 2:
+
+env > list all environment variables
+echo $PATH  > print path variable
+PATH = “$PATH:$HOME/scripts” > add path to path variable > This is temporary/session based
+
+echo $PATH
+. .profile Or source .profile > adds permanently
+
+Alternative II:
+echo ‘PATH=“$PATH:$HOME/scripts”’ >> .profile
+. .profile Or source .profile
+
+—————————————————
+
+Lab3:
+
+* variable1: This is 'just' a "test". 
+* variable2: This is a backslash "\" and this is a single quote '. 
+* variable3: 3 double quotes """, and 3 single quotes ''', and three backslashes \\\. 
+* variable4: This is what a newline character looks like \n, it will create a new line. 

@@ -1,0 +1,17 @@
+Components - there are different components, each responsible for a
+specific action that make up the Kubernetes
+
+On Master node:
+API server - front end of Kubernetes
+etcd - distributed key/value store. implements logs
+scheduler - distribute work across nodes/containers
+controller - brain behind orchestration. Monitor statuses and act accordingly
+
+On Worker nodes:
+kubelet - agent that runs on each node in the cluster. Make sure contianers are running
+container runtime - s/w used to run Containers
+
+kubectl - command line utility. Used to deploy and manage apps on cluster.
+kubectl run hello-minikube
+kubectl cluster-info
+kubectl get nodes 

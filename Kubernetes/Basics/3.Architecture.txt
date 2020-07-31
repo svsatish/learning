@@ -1,0 +1,9 @@
+Architecture -
+
+Nodes - is a physical/virtual machine on which k8 is installed
+Containers are deployed on the node.
+
+Master Node - controls are the nodes in the cluster
+Worker Nodes/ Minions
+
+Cluster - group of Nodes

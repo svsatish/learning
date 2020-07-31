@@ -1,0 +1,48 @@
+Pricing Model:
+
+1. Pay as you go - no upfront commitment
+2. Monthly flex - min 1000$/12 month - 33-60% savings
+3. Bring your own license
+
+----------------------------------------
+
+** No Ingress cost
+- Only egress cost
+- pricing is same for all regions
+
+----------------------------------------
+
+Block volume pricing:
+- for  storage and performance
+
+----------------------------------------
+
+Data transfer costs:
+- within AD - no costs
+- between AD - no costs
+- across regions - ingress - free; egress - charge
+- DRG/FastConnect - no costs
+
+----------------------------------------
+
+Cost management:
+
+Cost analysis:
+- tagging - can track, costs by tags
+
+Budget:
+- control your costs
+- set threshold on your defines; checks every 15 min
+
+Usage Reports:
+- detailed csv Reports
+- automatically generated
+- retained for an year or more
+
+
+----------------------------------------
+
+Free tier:
+300$ credit/ 30 days - whichever goes first
+
+- always free services

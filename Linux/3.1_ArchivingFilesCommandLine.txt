@@ -1,0 +1,18 @@
+Archiving:
+
+Combining multiple files into a single file
+- to save space
+- backup
+
+tar - tape archive is a common utility in linux for Archiving
+tar cf - create file archive
+tar xf - extract
+tar rf - append
+tar t - tail / list contents
+----------------------------------------------------------------------
+
+Compression: Reduce file size
+
+tar czf - create zip file
+bzip2
+zip

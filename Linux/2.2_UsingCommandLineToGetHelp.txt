@@ -1,0 +1,25 @@
+2.2 Getting help
+
+Man pages - traditional form of software command documentation and syntax
+in UNIX systems
+- typically installed during package installation
+
+Syntax - man command
+Sections - NAME, SYNOPSIS, DESCRIPTION, EXAMPLES
+
+/ - search in man page
+example - /backslash will highlight all occurrences of this text
+
+man -k regex(if you dont remember the exact command)
+apropos regex will do the same as above
+
+-------------------------------------------
+
+info pages - more/detailed documentation with robust information
+links pages together
+
+-------------------------------------------
+
+Lab:
+
+man wc and its options to solve various questions

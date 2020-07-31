@@ -1,0 +1,21 @@
+Local -
+
+Single node cluster:
+https://kubernetes.io/docs/tasks/tools
+install kubectl
+install minikube
+
+Multi-node cluster:
+kubeadm
+
+----------------------------------------------
+
+Cloud:
+AWS
+GCP
+
+-------------------------------------------
+
+Instant/free/online
+
+https://labs.play-with-k8s.com/

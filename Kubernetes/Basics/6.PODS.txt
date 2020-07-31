@@ -1,0 +1,60 @@
+POD:
+
+Single instance of application
+It is the smallest object you can create in k8
+1:1 relationship with containers.
+We can have multiple container in a POD but of different type.
+
+Container is not directly deployed on a node. It is encapsulated in a
+pod and deployed.
+
+Without PODS - we have to manually manage mapping of container & helper
+containers, networking, storage etc
+----------------------------------------------
+How to deploy a POD:
+
+Configure K8 to pull images from container registry
+
+Commands:
+
+minikube status
+minikube start
+kubectl run nginix --image=nginix
+kubectl get pods
+kubectl describe pods
+kubectl get pods -o wide
+----------------------------------------------
+You can create pods from the command line using any of the below two ways:
+
+1. Create an NGINX Pod (using --generator)
+kubectl run --generator=run-pod/v1 nginx --image=nginx
+
+
+2. Create an NGINX Pod (using --restart=Never)
+kubectl run nginx --image=nginx --restart=Never
+
+If you run the kubectl run command without the --restart=Never OR the --generator=run-pod/v1, the command will create a deployment instead (as of version 1.16).
+Note that this way of creating a deployment is deprecated and should not be used.
+
+Instead, use kubectl create command to create a deployment
+kubectl create deployment nginx --image=nginx
+----------------------------------------------
+POD yml file:
+
+Has 4 required/important fields
+
+apiVersion: v1
+kind: Pod/
+metadata: 
+  name:  myapp-pod
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  containers:
+    - name: nginix-container
+      image: nginx
+
+kubectl create -f pod.yml
+kubectl get pods
+kubectl describe pod myapp-pod

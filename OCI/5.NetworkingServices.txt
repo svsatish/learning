@@ -1,0 +1,52 @@
+Virtual cloud network (VCN) : software defined private network
+- lives within region
+
+Subnets:
+- sub networks within a VPC
+- instance is always created in a Subnet
+- can be private or public
+
+-------------------------------------------------------------
+
+4 types of Gateways:
+
+Internet Gateway:
+- provides a path between VCN and Internet
+- bi-directional
+
+NAT Gateway:
+- enables outbound connections but blocks inbound
+
+DRG: (Dynamic Routing Gateway)
+- is a virtual router that enables path for private traffic between VCN and destinations other than Internet
+2 designs:
+- VPN - encrypted but network line is shared
+- FastConnect - dedicated line
+
+Service Gateway:
+- resources in VCN access other public OCI services
+
+-------------------------------------------------------------
+
+Network security:
+
+Security list: (SL)
+- firewall policies at subnet level
+
+Network security group: (NSG)
+- rules applied at VCN level
+
+-------------------------------------------------------------
+
+Peering:
+- connectivity between VCN's
+local peering - connection between VCN within the same region
+remote peering - connection between VCN across different regions
+
+-------------------------------------------------------------
+
+Load balancer: to distribute traffic
+- for HA and FT
+2 types:
+- public load balancer
+- private load balancer

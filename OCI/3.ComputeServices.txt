@@ -1,0 +1,44 @@
+
+Compute services:
+
+1. Bare metal: A plain/vanilla/single-tenant physical server
+Use case:
+- Performance intensive like databases
+- Bring your own Hypervisor
+- Bring your own licensing
+- No Virtualization
+
+2. Dedicated Virtual host: A physical server with virtualization enabled. Bare metal + Hypervisor
+
+3. Virtual machine: is a guest on a host server with Hypervisor based virtualization
+- is a shared/multi-tenant machine
+Use case:
+- more control over environment
+- better resource pooling
+- for migrating apps from on-prem to cloud
+
+4. Container engine: Managed K8 service.
+- just manage your code and app Container/runtime (docker)
+
+5. Functions:
+- serverless offering
+- Just build code
+- stored as image in container registry
+- only pay for function execution time
+
+-- Everything is based on consumption model/pay-as-you-go
+
+-----------------------------------------------------
+
+Instance basics:
+- applies to all types of instances
+- Region > AD > FD > Subnet > VNIC > Instance > Block volume(boot and data disks)
+
+Scaling:
+- Vertical scaling - scaling up and down > 1 core to 4 core etc
+- Horizontal scaling - Autoscaling > scaling in and out based on defined metrics > 1 instance to 4 instances etc
+
+VM's Vs Container:
+- VM's share the hardware but OS is repeating for each VM
+- Container share both hardware+OS. Only apps+dependencies are containerized
+- Containers are managed, scaled and auto-healed using Orchestration system like OKE - Oracle Kubernetes engine

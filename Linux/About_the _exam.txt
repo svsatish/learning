@@ -1,0 +1,10 @@
+Exam code : LPI 010-160
+40 questions
+1 hour
+Multiple choice + fill in blanks
+total score - 800
+passing score - 500
+
+https://www.lpi.org/our-certifications/exam-010-objectives
+
+https://interactive.linuxacademy.com/diagrams/LPIEssentials.html

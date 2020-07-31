@@ -1,0 +1,40 @@
+Shared Security model:
+
+Security of cloud - Oracle's responsibility
+Security in cloud - Customer responsibility like OS patching, IAM, data, apps etc
+
+------------------------------------------------
+
+IAM (RBAC)
+- MFA
+- Federation
+
+------------------------------------------------
+
+Data protection
+- encrypted in rest
+- encrypted in transit
+- bring your own keys
+
+Key management
+- managed service
+- can bring your own keys
+
+Data Safe
+- protective sensitive data
+
+Data Vault
+- prevents admins from spoofing user data 
+
+OS Management service
+- configuration, package, patches management
+
+------------------------------------------------
+
+Network Protected:
+- Have subnets - DMZ, private and public subnets
+- Gateways - IG, NAT gateway, Service Gateway, DRG
+- SL, NSG
+- WAF - prevent malacious traffic and DDoS
+
+Compliance Certifications

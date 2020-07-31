@@ -1,0 +1,72 @@
+Storage requirements:
+- Persistent Vs Non-Persistent
+- type of data
+- durability(copies)
+- performance
+- protocol
+- connectivity (local vs network)
+
+--------------------------------------------------------
+
+Block storage:
+- data is stored in blocks
+- it is a hardrive in a remote chasis
+
+--------------------------------------------------------
+
+Storage services:
+
+1. Block Volume service:
+- storage for compute services
+2 types
+- boot volume - OS disk
+- block volume - data disk
+
+- Storage is highly durable, Persistent
+- Block volume stores replica of data in 3 FD
+
+** Block volume backup:
+- you may take periodic backups for any accidental data deletion. They are stored in object storage
+
+** Block volume tiers:
+- basic
+- balanced
+- high Performance
+
+Volume size - 5 GB to 32 TB
+Max volumes attached to an instance = 32
+
+--------------------------------------------------------
+
+2. Local NVMe: (Non volatile memory express)
+- temporary Storage
+- very high performance
+- same as block volume
+- data is not persistent but survives reboot
+- no backups
+
+--------------------------------------------------------
+
+3. File storage:
+- organized as directories
+- distributed file system - NFS & SMB
+- shared over network
+- used in NAS
+
+** used for compute instances
+- supports 10,000 snapshots
+- Storage is highly durable, Persistent
+- Block volume stores replica of data in 3 FD
+
+--------------------------------------------------------
+
+4. Object storage:
+- unstructured data is stored as objects in bucket
+- flat structure
+- fast
+- stores object+metadata. So indexing and access is easy
+- highly durable. 3 replicas in different FD
+
+** tiers:
+- Standard storage tier(hot)
+- Archived storage tier(cold)

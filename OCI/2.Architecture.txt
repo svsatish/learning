@@ -1,0 +1,24 @@
+Regions:
+- is a Geographic location containing one or more availability domain (AD)
+- Every region has at least one AD
+- Mostly there are is a region pair for high availability, DR, data residency
+- We select region based on closest location for low latency and high performance
+
+Availability Domain:
+- is a physical data center
+- within a region
+- can be a group of isolated data centers connected with low latency and high bandwidth network for fault tolerance
+- for any location having only one AD, the second AD will be setup within an year
+
+Fault Domain:
+- is a logical data centers
+- group of related hardware and infrastructure
+- there are 3 FD within a AD
+
+Compartments:
+- group of related resources to isolate and control
+- compartments can be nested upto 6 levels
+- each resource can be only in ONE compartment but can interact with others
+- resources can be moved to other compartment
+- compartments is a global construct meaning resources from multi-regions can be in one compartment
+- can analyze cost and assign budget easily

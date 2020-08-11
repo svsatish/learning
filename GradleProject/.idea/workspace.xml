@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e89df8c-4ed4-4c0b-a3ed-98254993dfff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Gradle/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.gradle/6.5/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.gradle/6.5/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.idea/libraries/gson_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/Gradle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/libs/gson-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/out/production/Gradle/info/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/out/production/Gradle/info/garagesalesapp/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/out/production/Gradle/info/garagesalesapp/domain/SaleEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/src/info/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/src/info/garagesalesapp/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle/src/info/garagesalesapp/domain/SaleEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/info/garagesalesapp/domain/SaleEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/GradleProject-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/css/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/images/d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/images/d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/js/jquery.jstree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/js/jquery.min-1.11.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/root.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/project/dependencies/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gson-display/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gson-display/build/classes/java/main/info/garagesalesapp/domain/JsonDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gson-display/build/libs/gson-display-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gson-display/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gson-display/src/main/java/info/garagesalesapp/domain/JsonDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/garagesalesapp/domain/SaleEvent.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/gson-display">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleProject" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="reporting" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleProject" type="f1a62948:ProjectNode" />
+                <item name="gson-display" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleProject" type="f1a62948:ProjectNode" />
+                <item name="gson-display" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="652cd534-d0df-4943-add7-144e423807ec" />
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="moduleName" value="GradleProject.main" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+        </Entry>
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1frnGbWxxN5RVktvNZ6xohWM4Y0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.GradleProject [projects]">
+    <configuration name="GradleProject [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GradleProject [projects]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="projects" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.GradleProject [projects]" />
+        <item itemvalue="Gradle.GradleProject [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e89df8c-4ed4-4c0b-a3ed-98254993dfff" name="Default Changelist" comment="" />
+      <created>1596984984657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596984984657</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597029034985">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="304" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.970@0.23.1680.970" timestamp="1597029034985" />
+    <state width="1638" height="314" key="GridCell.Tab.0.bottom" timestamp="1597069775167">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1597069775167" />
+    <state width="1638" height="314" key="GridCell.Tab.0.center" timestamp="1597069775166">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1597069775166" />
+    <state width="1638" height="314" key="GridCell.Tab.0.left" timestamp="1597069775164">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1597069775164" />
+    <state width="1638" height="314" key="GridCell.Tab.0.right" timestamp="1597069775166">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1597069775166" />
+    <state width="1638" height="314" key="GridCell.Tab.1.bottom" timestamp="1597069775169">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.1.bottom/0.23.1680.970@0.23.1680.970" timestamp="1597069775169" />
+    <state width="1638" height="314" key="GridCell.Tab.1.center" timestamp="1597069775168">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.1.center/0.23.1680.970@0.23.1680.970" timestamp="1597069775168" />
+    <state width="1638" height="314" key="GridCell.Tab.1.left" timestamp="1597069775168">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.1.left/0.23.1680.970@0.23.1680.970" timestamp="1597069775168" />
+    <state width="1638" height="314" key="GridCell.Tab.1.right" timestamp="1597069775169">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.1.right/0.23.1680.970@0.23.1680.970" timestamp="1597069775169" />
+    <state x="341" y="147" key="SettingsEditor" timestamp="1597069844322">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="341" y="147" key="SettingsEditor/0.23.1680.970@0.23.1680.970" timestamp="1597069844322" />
+    <state x="208" y="120" key="new project wizard" timestamp="1597013672290">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="208" y="120" key="new project wizard/0.23.1680.970@0.23.1680.970" timestamp="1597013672290" />
+  </component>
+</project>

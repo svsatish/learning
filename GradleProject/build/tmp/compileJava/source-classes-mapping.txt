@@ -1,0 +1,2 @@
+info/garagesalesapp/domain/SaleEvent.java
+ info.garagesalesapp.domain.SaleEvent

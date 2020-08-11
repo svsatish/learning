@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Github/Expense" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/ServiceReadiness" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/cge-page-objects" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/cge-ui" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/ete-travel" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/evt-util" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/evts" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/invoice-qes" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/java-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/page-objects" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/sql-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/tems-scripts" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/tems-utils" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/test-foundation" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/translations" value="PREVIEW" />
+        <entry key="$USER_HOME$/Github/travelrequest-automation" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+</project>

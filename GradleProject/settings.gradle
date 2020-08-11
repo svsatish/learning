@@ -1,0 +1,3 @@
+rootProject.name = 'GradleProject'
+include 'gson-display'
+

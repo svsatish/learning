@@ -1,0 +1,9 @@
+Design the test case
+
+- add place
+- update place
+- verify if the address updated
+
+Use jsonPath to parse json to fetch required node values for validations
+
+Follow the contract from 2.1

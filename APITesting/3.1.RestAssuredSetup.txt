@@ -1,0 +1,12 @@
+Pre-reqs:
+- Java jdk
+- IDE
+
+- Create a Gradle-Java-Junit project
+- Add restassured, json path, json schema validator dependencies from maven central
+
+- Create a new class
+- RestAssured follows gherkins syntax of
+given - all inputs,
+when - action (resource and operation),
+then - validations

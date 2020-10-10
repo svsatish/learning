@@ -1,0 +1,13 @@
+JsonPath library is used to parse a given json.
+
+JsonPath jsonPath = new JsonPath(jsonResponseString);
+
+* we can pass static json to a body as
+- copy+paste of json string
+- from another class/method (either static method or non-static)
+- from external files
+(new String Files.readAllBytes(Path.of("url")))
+
+* we can pass dynamic json to a body as
+- passing args to a method
+- using @DataProvider annotation

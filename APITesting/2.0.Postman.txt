@@ -1,0 +1,6 @@
+Manual testing of APIs
+
+API contract is needed to exercise the APIs. API contract is attached as doc file.
+
+
+Live project on Places APIs exercising POST, GET, PUT, DELETE operations

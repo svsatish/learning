@@ -1,0 +1,10 @@
+- Install jira in your local
+
+- explore REST APIs it offers
+
+- It uses authentication - cookie session
+* can be handled by session filter concept in RestAssured
+
+- Path param concept
+
+- sending attachments as multipart method in RestAssured

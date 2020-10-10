@@ -1,0 +1,85 @@
+Jmeter:
+- is a Performance testing tool (testing your app under various workloads)
+- can be used for various purposes - load, stress, volume, endurance
+
+Advantages:
+- is open source
+- built in Java so can be run on many platforms and has community support
+- No scripting/programming knowledge is needed to start off. We can start with
+Record & Playback and fine tuning scripts.
+
+Installation:
+- download from apache website
+
+UI Overview:
+- Can only have/open one project at a time
+- Test Plan is the start point for execution. All actions should be in it for execution.
+
+Recording scripts:
+1. From Jmeter using HTTP(S) test script recorder:
+- records the application under test
+- Jmeter settings: Port number, add suggested excludes
+- Browser settings: Network Proxy, Import Certificate to interact with https
+
+2. Blazemeter extension from Chrome Browser
+- recommended as we do not have to deal with changing proxies & certs and easy to use.
+
+Thread Group: (Users)
+- heart of Jmeter
+- No# of users. This is how we put load.
+- Ramp up time - by this time all users will be onboarded
+- loop count
+
+Listeners: (Reporting)
+- View results tree. Important as it shows tests pass/fail
+- Aggregate Reports
+- Summary Reports
+- Graph results - shows deviation
+
+Understanding the results:
+- Samplers: No. of users
+- Avg;Min;Max - time taken for a request
+- Throughput - Np. of requests/sec handled by server (traffic)
+- 90/95/99 % - % of users NOT taking more than this time
+* Analyzing graph results:
+- Throughput should be increasing
+- Avg duration
+- Standard duration should be lower than avg duration
+
+Plugins:
+- Custom thread group - Concurrency thread group & Ultimate thread group
+
+Cookie manager:
+- Most of the secured apps use cookies (unique identifier to identify yourself)
+- As https is stateless, it will not remember the previous state. So cookies help
+to solve this and browser automatically stores these cookies for a certain period
+- Jmeter doesn't store cookies as browser automatically. So we have to add
+config element > http cookie manager
+
+Assertions:
+- Can be applied to all requests or individual requests
+- Response, duration, size
+
+Sample apps for perf testing:
+- blazedemo
+- herouku internet
+- webtours by HP
+
+Controllers:
+- is a container/folder where we store all our requests/Samplers
+* Recording controller, Transaction controller
+- Used to group and generate metrics for that module
+* Simple controller - just a container. Does not record metrics
+* Module controller - Re-use another controller.
+- Aggregate report is best fit to capture metrics for these.
+* Interleave controller - Samplers under this controller are executed in serial
+only once for each iteration.
+* Runtime controller - Executes the samplers within this controller for 'n' seconds.
+* Random controller - Executes a random sampler within this controller
+* If controller - to loop until when condition is true
+* While controller - to loop until condition is false
+
+Timers:
+- to replicate real user scenario, add time/pause after each thread execution
+* Constant timer - add constant pause/time
+* Gaussian Random timer - add some random/deviation time + constant time as mentioned

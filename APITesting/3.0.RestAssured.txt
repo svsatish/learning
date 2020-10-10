@@ -1,0 +1,1 @@
+Rest assured in a Java DSL to automate REST APIs.

@@ -1,21 +1,19 @@
-Day2 Assignment:
+Day3 Assignment:
 
 Questions 1:
-Create a class employee. Inside that class create three variable name,age,city. Also create a function to
-display the three variables. In the main function create two objects and call the function using it.
-Output:
-The name is Saurab
-The age is 23
-The city is chennai
+  Take 5 subject marks > each 100
+  Calculate the percentage
+  Based on the %, print percentage and Grade
+  
+Questions 2:  
+   Take employee name, date of birth, month of birth, year of birth, monthly salary
+   tax is accounted for
+   5l - 20%
+   4l - 15%
+   3l - 10%
+   2l - 5%
+
+   Display name, age, annual salary and tax amount
 
 Implementation:
-Employee class file has the variables and function declaration
-Main class file is creating an object for Employee class and setting values
-
-Output:
-
-```
-    The name is Saurab
-    The age is 23
-    The city is chennai
-```
+See the EmployeeDetails & PercentageGrade classes.

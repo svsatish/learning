@@ -1,19 +1,16 @@
-Day3 Assignment:
+Day4 Assignment:
 
 Questions 1:
-  Take 5 subject marks > each 100
-  Calculate the percentage
-  Based on the %, print percentage and Grade
+  create a class avenger with
+  properties (name,age,power,weapon,planet) and with
+  functions-getDetails() and displayDetails().
+  create 5 objects as an array in the main method and call.
   
 Questions 2:  
-   Take employee name, date of birth, month of birth, year of birth, monthly salary
-   tax is accounted for
-   5l - 20%
-   4l - 15%
-   3l - 10%
-   2l - 5%
-
-   Display name, age, annual salary and tax amount
+  Create an int array with 5 values and print only odd values.
+   
+Question 3:
+  Create an int array of size 5, take all the values from the user, add all the values and print the sum.   
 
 Implementation:
-See the EmployeeDetails & PercentageGrade classes.
+See the Main class and classes under Day4 folder
